@@ -1,0 +1,158 @@
+body {
+    max-width: 100%;
+    font: 1em normal Arial, sans-serif;
+    color: #111111;
+    background-image: url("../images/bookstore_background.png");
+    background-size: cover;
+
+}
+/* rules for the header */
+
+
+section{
+    width: 80%;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.5);
+}
+header {
+    width: 80%;
+    margin: 0 auto;
+    /*position: fixed;*/
+    /*top: 0;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: white;
+
+}
+
+.headerSpace{
+    flex:1.5;
+}
+
+#leftHeader,#rightHeader{
+    flex: 2;
+    text-align: center;
+}
+
+
+/* rules for the center header */
+#searchBoxForm {
+    margin-top: 30px;
+    display: flex;
+}
+#searchBox {
+    height: 20px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.dropdownSelect {
+    width: 189px;
+    padding: 5px;
+    background-color: #dd1d5e;
+    color: white;
+    text-align: center;
+    display: block;
+    border-radius: 5px;
+}
+
+.dropdownContent {
+    display: none;
+    position: absolute;
+    min-width: 200px;
+    padding-top: 5px;
+    z-index: 1;
+    border-radius: 5px;
+    background-color: #dd1d5e;
+    text-align: center;
+}
+
+.dropdown:hover .dropdownContent {
+    display: block;
+}
+
+.dropdownContent a {
+    color: white;
+    text-decoration: none;
+}
+
+.dropdownContent a:hover {
+    color: #00aacc;
+    text-decoration: none;
+}
+
+/* rules for the right header */
+
+#rightHeader {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+#cart {
+    /*flex:1;*/
+}
+
+
+#loginButton {
+    /*flex:1;*/
+    background-color: #dd1d5e;
+    width: 50px;
+    height: 30px;
+    margin: 4px 10px 0 0;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 8px;
+}
+
+#loginButton a{
+    color: white;
+    text-decoration: none;
+}
+#loginButton a:hover {
+    color: #00aacc;
+    text-decoration: none;
+}
+
+/* rules for the footer */
+
+footer {
+    background-color: white;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    /*border: 1px solid black;*/
+    font-size: 0.8em;
+}
+
+#footerLeft {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0 0 10px;
+    width: 300px;
+}
+
+#footerLeft a{
+    padding-top: 12px;
+}
+
+#footerRight {
+    margin: 5px 50px 0 0 ;
+    display: flex;
+    justify-content: space-between;
+    width: 80px;
+}
+
+#footerRight a{
+    margin: 0 3px;
+}
+
+
+
+

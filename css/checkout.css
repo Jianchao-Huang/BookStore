@@ -1,0 +1,105 @@
+/* Styles only used on the checkout page */
+
+/* Styles used for top section that contains page heading */
+
+main {
+    color: white;
+}
+
+
+/* Styles used for bottom section that contains Customer form and Checkout summary */
+
+h1{
+    text-align: center;
+}
+
+#bottomSection {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Styles used for Customer Input Form */
+
+#formTitleText {
+    /*max-width: 465px;*/
+}
+
+#checkoutFormErrors {
+    /*margin: 20px 0 0 40px;*/
+    color: red;
+}
+
+#checkoutFormErrors label.error {
+    display: block;
+}
+
+#checkoutForm {
+    padding: 30px;
+
+}
+fieldset{
+    border: 0;
+}
+
+.error{
+    display: block;
+    color: red;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+#checkoutTable td {
+    vertical-align: top;
+    text-align: right;
+    margin: 15px;
+    height: 40px;
+}
+
+
+
+
+#submitButton {
+    height: 18px;
+    border-radius: 8px;
+    border: none;
+    margin: 6px 0 0 4px;
+    text-align: center;
+    background-color: #dd1d5e;
+    color: white;
+    font-size: 0.875em;
+    text-decoration: none;
+}
+
+/* Styles used for Checkout summary */
+
+ul {
+    list-style-type: square;
+    line-height: 150%;
+}
+
+#checkoutSummary {
+    margin: 55px 0;
+}
+
+#checkoutTotals {
+    margin: 20px 0 0 38px;
+    padding: 20px 0 20px 30px;
+    border-radius: 4px;
+    width: 275px;
+}
+
+#checkoutTotals td {
+    text-align: right;
+    padding: 5px;
+
+}
+
+.checkoutPriceColumn {
+    width: 80px;
+    font-weight: bold;
+}
+
+.total {
+    border-top: 1px solid black
+}
+

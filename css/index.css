@@ -1,0 +1,57 @@
+section {
+    min-height: 400px;
+    display:flex;
+    color: white;
+}
+
+section a {
+    margin: 5px auto;
+    width: 70%;
+    text-decoration: none;
+    display: block;
+
+}
+
+section a h1{
+    margin: 10px auto;
+    color: white;
+    background-color: #dd1d5e;
+    font-style: italic;
+    border-radius: 10px;
+    font-size: 1em;
+}
+
+#mainLeft {
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    text-align: center;
+    /*border: 1px #ccc solid;*/
+}
+
+#mainLeft h1{
+    font-style: oblique;
+}
+
+
+#mainRight {
+    flex:1;
+    text-align: center;
+
+}
+
+#mainRight h2 {
+    font-size: 1rem;
+}
+
+.categoriesContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+
+#mainLeft div {
+    flex:1;
+}

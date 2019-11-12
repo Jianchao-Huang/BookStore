@@ -1,0 +1,106 @@
+section {
+    display: flex;
+    color: white;
+}
+
+article {
+    max-width: 700px;
+
+}
+
+#mainLeft {
+    display:flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.unClickedCategory {
+    width: 70%;
+    background: #dd1d5e;
+    border-radius: 10px;
+    border: none;
+}
+
+
+.unClickedCategory a{
+    text-decoration: none;
+    font-size: 1.3em;
+    color: white;
+    height: 100%;
+    width: 100%;
+}
+
+.clickedCategory {
+    width: 70%;
+    background: white;
+    border-radius: 10px;
+    border: none;
+}
+
+.clickedCategory a{
+    text-decoration: none;
+    font-size: 1.3em;
+    color: #dd1d5e;
+    height: 100%;
+    width: 100%;
+
+}
+
+.introSpace {
+    flex: 1;
+}
+
+.intro {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex: 2;
+}
+
+#mainRight {
+
+    display: flex;
+    flex-wrap: wrap;
+    flex: 3;
+    justify-content: space-around;
+}
+
+#mainRight button {
+    background: #dd1d5e;
+    border-radius: 10px;
+    border: none;
+    color: white;
+}
+
+
+.bookImage {
+    margin-top: 10px;
+}
+
+.bookInfo {
+    margin-left: 5px;
+}
+
+
+.book {
+    display: flex;
+    flex-direction: row;
+    flex:1;
+    max-width: 400px;
+    /*max-height: 300px;*/
+}
+.book button{
+    display: block;
+    margin: 5px 0;
+}
+
+.book button a{
+    text-decoration: none;
+    color: white;
+
+}
+
+section {
+    border: 1px black solid;
+}
